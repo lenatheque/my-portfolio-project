@@ -1,7 +1,9 @@
 body {
-  background-color: #1d212b;
+  background-color: #1f202b;
   color: #ffffff;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Montserrat',
+  sans-serif, 'Source Code Pro',
+  monospace;
  
 }
 .full-width {
@@ -24,15 +26,18 @@ nav {
   list-style-type: none;
   text-decoration: none;
 }
+
 nav ul li {
   display: inline-block;
   text-decoration: none;
+  font-family: 'Montserrat',bold;
 }
 nav ul li a {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 30px;
   color: #ffffff;
-  padding-left: 80px;
+  padding-left: 60px;
+
 }
 
 header {
@@ -41,23 +46,41 @@ header {
   background-size: cover;
   background-position: center;
   margin: 20px auto;
+  font-size: 36px;
 }
 header h1 {
-  font-family: "Lora", serif;
-  font-size: 30px;
+  font-family: 'Source Code Pro', bold;
+  font-size: 72px;
   color: #ffffff;
-  padding: 65px 0 65px 25px;
+
+  
 }
 #header-word {
   color: #fa0075;
+  font-size: 72px;
+  font-family: 'Source Code Pro',
+  bold;
+  margin: 0;
+  display: inline;
 }
+
 h2, h6 {
   color: #fa0075;
   text-align: center;
+  font-size: 36px;
+  font-family: 'Source Code Pro';
 }
 
-h3, p {
+h3 {
   text-align:center;
+  font-size: 36px;
+  font-family: 'Source Code Pro';
+}
+
+p{
+  font-size: 24px;
+  font-family: 'Montserrat';
+  padding: 10px;
 }
 .full-width-about {
     max-width: 1200px;
@@ -69,6 +92,7 @@ h3, p {
 footer{
   height: 400px;
 }
+
 #contact ul {
   list-style: none;
 }
@@ -78,5 +102,6 @@ footer{
 }
 
 #contact ul img {
-  padding-right: 48px;
+  padding-right: 60px;
+  padding-left:5px;
 }
