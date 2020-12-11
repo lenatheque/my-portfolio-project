@@ -2,15 +2,13 @@ body {
   background-color: #1d212b;
   color: #ffffff;
   font-family: "Source Sans Pro", sans-serif;
+ 
 }
 .full-width {
   max-width: 1200px;
   height:auto;
   margin: 20px auto;
-  overflow: auto;
-
-
-    
+  overflow: auto; 
 }
 .half-width {
   width: 600px;
@@ -29,6 +27,12 @@ nav {
 nav ul li {
   display: inline-block;
   text-decoration: none;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #ffffff;
+  padding-left: 80px;
 }
 
 header {
@@ -51,10 +55,28 @@ h2, h6 {
   color: #fa0075;
   text-align: center;
 }
+
+h3, p {
+  text-align:center;
+}
 .full-width-about {
-    max-width: 1400px;
+    max-width: 1200px;
     height: 550px;
     background: url("../img/about-me.png");
     background-size: cover;
     background-position: center;
+}
+footer{
+  height: 400px;
+}
+#contact ul {
+  list-style: none;
+}
+
+#contact ul li {
+  display: inline-block;
+}
+
+#contact ul img {
+  padding-right: 48px;
 }
