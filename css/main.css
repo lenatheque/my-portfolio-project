@@ -1,0 +1,60 @@
+body {
+  background-color: #1d212b;
+  color: #ffffff;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.full-width {
+  max-width: 1200px;
+  height:auto;
+  margin: 20px auto;
+  overflow: auto;
+
+
+    
+}
+.half-width {
+  width: 600px;
+  float: left;
+}
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+nav {
+  float: right;
+  list-style-type: none;
+  text-decoration: none;
+}
+nav ul li {
+  display: inline-block;
+  text-decoration: none;
+}
+
+header {
+  height: 800px;
+  background: url("../img/hero-background.png");
+  background-size: cover;
+  background-position: center;
+  margin: 20px auto;
+}
+header h1 {
+  font-family: "Lora", serif;
+  font-size: 30px;
+  color: #ffffff;
+  padding: 65px 0 65px 25px;
+}
+#header-word {
+  color: #fa0075;
+}
+h2, h6 {
+  color: #fa0075;
+  text-align: center;
+}
+.full-width-about {
+    max-width: 1400px;
+    height: 550px;
+    background: url("../img/about-me.png");
+    background-size: cover;
+    background-position: center;
+}
