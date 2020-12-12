@@ -6,13 +6,16 @@ body {
   monospace;
  
 }
-
 .full-width {
   max-width: 1200px;
   height:auto;
   margin: 20px auto;
   overflow: auto; 
 }
+/* .something-width{
+  width:800px;
+  float: left;
+} */
 .half-width {
   width: 600px;
   float: left;
@@ -21,6 +24,12 @@ body {
   width: 400px;
   float: left;
 }
+.fourth-width {
+  width: 300px;
+  float: left;
+  margin: 50px;
+}
+
 
 /* HEADER SECTION */
 header {
@@ -36,7 +45,9 @@ header h1 {
   font-family: 'Source Code Pro', bold;
   font-size: 72px;
   color: #ffffff;
-
+  width:600px;
+  padding-top: 100px;
+  margin-top: 100px;
   
 }
 #header-word {
@@ -75,6 +86,7 @@ h2{
   font-family: 'Source Code Pro';
 }
 
+
 /* PORTFOLIO SECTION  */
 #portfolio p{
   font-size: 24px;
@@ -96,6 +108,20 @@ h2{
     background-position: center;
 }
 
+/* ABOUT SECTION */
+#about p{
+font-size: 24px;
+font-family: 'Source Code Pro';
+padding-left: 20px;
+text-align: left;
+width:600px;
+margin:60px;
+
+}
+
+
+
+
 /* FOOTER */
 
 h3 {
@@ -103,8 +129,15 @@ h3 {
   font-size: 36px;
   font-family: 'Source Code Pro';
 }
-
-h4 {
+h4{
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Montserrat',
+  sans-serif;
+  color: #fa0075;
+  font-weight: 300;
+}
+h5 {
   text-align: center;
   font-size: 18px;
   font-family: 'Montserrat', sans-serif;
