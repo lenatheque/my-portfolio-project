@@ -105,14 +105,6 @@ a:hover {
   margin:45px;
 }
 
-.full-width-about {
-    max-width: 1200px;
-    height: 550px;
-    background: url("../img/about-me.png");
-    background-size: cover;
-    background-position: center;
-}
-
 img:hover{
   opacity: 0.3;
   transition: .5s ease;
@@ -149,18 +141,26 @@ img:hover{
 
 /* ABOUT SECTION */
 #about h2{
-  margin-bottom: 100px;
+ padding-top:70px;
 }
 #about p{
 font-size: 24px;
 font-family: 'Source Code Pro';
-padding-left: 20px;
+
 text-align: left;
-width:600px;
-margin:60px;
+width:500px;
+
+color: #ffffff;
 
 }
 
+#about {
+  
+background-image: linear-gradient(to top, #c71d6f 0%, #d09693 100%);
+  /* background: url("../img/about-me.png"); */
+  background-size: cover;
+  background-position: center;
+}
 
 
 
@@ -176,7 +176,7 @@ h4{
   font-size: 24px;
   font-family: 'Montserrat',
   sans-serif;
-  color: #fa0075;
+  color: #;
   font-weight: 300;
 }
 h5 {
