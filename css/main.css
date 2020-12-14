@@ -51,7 +51,7 @@ header h1 {
   
 }
 #header-word {
-  color: #fa0075;
+  color: pink;
   font-size: 72px;
   font-family: 'Source Code Pro',
   bold;
@@ -95,9 +95,16 @@ a:hover {
 /* PORTFOLIO SECTION  */
 .image-wrapper{
   background-color: #fa0075;
-  padding: 5px;
+  padding: 1px;
+  margin: 40pxpx;
+  float: left;
 }
-
+.image-wrapper2 {
+  background-color: orange;
+  padding: 1px;
+  margin: 40px;
+  float: right;
+}
 #portfolio p{
   font-size: 24px;
   font-family: 'Montserrat';
