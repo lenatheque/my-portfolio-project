@@ -9,7 +9,7 @@ body {
 .full-width {
   max-width: 1200px;
   height:auto;
-  margin: 20px auto;
+  margin: 40px auto;
   overflow: auto; 
 }
 .something-width{
@@ -19,6 +19,7 @@ body {
 .half-width {
   width: 600px;
   float: left;
+  margin: 40px auto;
 }
 .third-width {
   width: 400px;
@@ -92,6 +93,11 @@ a:hover {
 
 
 /* PORTFOLIO SECTION  */
+.image-wrapper{
+  background-color: #fa0075;
+  padding: 5px;
+}
+
 #portfolio p{
   font-size: 24px;
   font-family: 'Montserrat';
@@ -102,7 +108,9 @@ a:hover {
   
 }
 #portfolio img{
-  margin:45px;
+  /* margin:45px; */
+display:block;
+margin: 0 auto;
 }
 
 img:hover{
@@ -162,7 +170,23 @@ background-image: linear-gradient(to top, #c71d6f 0%, #d09693 100%);
   background-position: center;
 }
 
+/* CONTACT SECTION */
+#contact ul {
+  list-style: none;
+}
 
+#contact ul li {
+  display: inline-block;
+}
+
+#contact ul img {
+  padding-right: 60px;
+  padding-left: 5px;
+}
+
+#projects img {
+  padding: 20px;
+}
 
 /* FOOTER */
 
@@ -189,20 +213,4 @@ h5 {
 footer{
   height: 400px;
 }
-/* CONTACT SECTION */
-#contact ul {
-  list-style: none;
-}
 
-#contact ul li {
-  display: inline-block;
-}
-
-#contact ul img {
-  padding-right: 60px;
-  padding-left:5px;
-}
-
-#projects img{
-padding: 20px;
-}
