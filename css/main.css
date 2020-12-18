@@ -96,7 +96,7 @@ a:hover {
 .image-wrapper{
   background-color: #fa0075;
   padding: 1px;
-  margin: 40pxpx;
+  margin: 40px;
   float: left;
 }
 .image-wrapper2 {
@@ -210,6 +210,7 @@ h4{
   color: #;
   font-weight: 300;
 }
+
 h5 {
   text-align: center;
   font-size: 18px;
@@ -220,4 +221,19 @@ h5 {
 footer{
   height: 400px;
 }
+  
+/* MEDIA QUERY */
 
+@media screen and (min-width: 786px) {
+  h1,p {
+    /* font-size: 3em; */
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  h1,p {
+    /* font-size: 4em; */
+    text-align: center;
+  }
+}
