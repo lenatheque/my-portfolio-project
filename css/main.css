@@ -4,6 +4,7 @@ body {
   font-family: 'Montserrat',
   sans-serif, 'Source Code Pro',
   monospace;
+  font-size: 16px;
  
 }
 .full-width {
@@ -11,6 +12,7 @@ body {
   height:auto;
   margin: 40px auto;
   overflow: auto; 
+  
 }
 .something-width{
   width:800px;
@@ -40,11 +42,12 @@ header {
   background-size: cover;
   background-position: center;
   margin: 20px auto;
-  font-size: 24px;
+  font-size: 2rem;
 }
+
 header h1 {
   font-family: 'Source Code Pro', bold;
-  font-size: 72px;
+  font-size: 4rem;
   color: #ffffff;
   padding-top: 100px;
   margin-top: 100px;
@@ -225,15 +228,31 @@ footer{
 /* MEDIA QUERY */
 
 @media screen and (min-width: 786px) {
-  h1,p {
+  header {
     /* font-size: 3em; */
     text-align: center;
+    font-size: 3rem;
+    margin: 0;
+    height:auto;
+    justify-content: center;
+    align-items: center;
+  
   }
 }
 
+
+
+
+
+
+
+
+
 @media screen and (min-width: 1200px) {
-  h1,p {
-    /* font-size: 4em; */
-    text-align: center;
-  }
+ header {
+   /* font-size: 3em; */
+   text-align: center;
+   font-size: 2rem;
+   margin: 0;
+
 }
